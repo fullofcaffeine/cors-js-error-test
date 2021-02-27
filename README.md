@@ -10,6 +10,12 @@ This small web app can be used to test cross-origin error-reporting behavior acr
 1. Open the browser you want to test on and load `http://localhost:3000`;
 1. Open the JS inspector and inspect the logged event error object.
 
+You might also want to disable JS caching while testing to avoid any falsey results: 
+
+1. Open the dev tools;
+2. Click the "..." menu then "Network Conditions";
+3. In the tab that opens, find "Caching" and check "Disable cache".
+
 # Scenarios to test
 
 Suggestion: test in all major browsers (Chrome, Firefox, Safari).
