@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CORS error test</title>
+    <script type="text/javascript">
+      window.addEventListener('error', function(errorEvent) {
+        console.log(errorEvent);
+      });
+    </script>
+    <script crossorigin='anonymous' src="//cross.origin:3000/script.js"></script>
+  </head>
+  <body>
+    <p>See README.md</p>
+  </body>
+</html>
